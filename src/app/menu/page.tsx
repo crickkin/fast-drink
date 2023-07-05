@@ -48,9 +48,9 @@ function Menu({ item }: any) {
                     const ingredient = ingredients.find(ingredient => ingredient.code == ingredientCode);
 
                     return (
-                        <div>
+                        <div key={(ingredient != undefined) ? ingredient.id : 0 }>
                             { (ingredient != undefined) 
-                                ? <IngredientSlot key={ingredient.id} ingredient= { ingredient } /> 
+                                ? <IngredientSlot ingredient= { ingredient } /> 
                                 : <div></div> }
                         </div>
                         )}
