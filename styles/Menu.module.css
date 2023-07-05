@@ -16,6 +16,7 @@
     max-width: 60%;
     text-align: justify;
     text-justify: inter-word;
+    margin-left: 2em;
 }
 
 .containerInfo a {

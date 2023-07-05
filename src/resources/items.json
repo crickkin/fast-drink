@@ -2,13 +2,16 @@
     "items": [
         {
             "id": 0,
-            "name": "Gin tônica de café",
+            "name": "Caipirinha de café",
             "price": 99.99,
-            "image": "gin-tonica-cafe.png",
+            "image": "caipirinha-cafe.png",
             "ingredients": [
-                ""
+                "lemon",
+                "cachaca",
+                "sugar",
+                "coffee"
             ],
-            "recipe": "https://www.bonde.com.br/gastronomia/receitas/drink-tonica-cafe-com-gin"
+            "recipe": "https://www.comidaereceitas.com.br/bebidas-e-sucos/caipirinha-de-cafe.html"
         },
         {
             "id": 1,
@@ -16,29 +19,36 @@
             "price": 99.99,
             "image": "caipirinha-limao-agua-coco.png",
             "ingredients": [
-                ""
+                "vodka",
+                "lemon",
+                "coconut-water"
             ],
             "recipe": "https://www.comidaereceitas.com.br/bebidas-e-sucos/caipirinha-de-agua-de-coco-com-picole-de-limao.html"
         },
         {
             "id": 2,
-            "name": "Caipirinha de café",
+            "name": "Caipirinha de maracujá",
             "price": 99.99,
-            "image": "caipirinha-cafe.png",
+            "image": "caipirinha-maracuja.jpg",
             "ingredients": [
-                ""
+                "passionfruit",
+                "vodka",
+                "sugar" 
             ],
-            "recipe": "https://www.comidaereceitas.com.br/bebidas-e-sucos/caipirinha-de-cafe.html"
+            "recipe": "https://www.tudogostoso.com.br/receita/68288-caipirinha-de-maracuja.html"
         },
         {
             "id": 3,
-            "name": "Mojito de maracujá",
+            "name": "Gin tônica de café",
             "price": 99.99,
-            "image": "mojito-maracuja.png",
+            "image": "gin-tonica-cafe.png",
             "ingredients": [
-                ""
+                "gin",
+                "coffee",
+                "tonic-water",
+                "tangerine"
             ],
-            "recipe": "https://www.receiteria.com.br/receita/mojito-de-maracuja/"
+            "recipe": "https://www.bonde.com.br/gastronomia/receitas/drink-tonica-cafe-com-gin"
         }
     ]
 }

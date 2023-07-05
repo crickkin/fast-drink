@@ -1,0 +1,21 @@
+.ingredientSlotContainer {
+    width: 15em;
+    height: 2em;
+    display: flex;
+    flex-direction: column;
+    background-color: #b1de9c;
+    justify-content: center;
+    border-radius: 20em;
+    padding: 15px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.ingredientSlotContainer p {
+    font-size: 18;
+}
+
+.ingredientSlotContainer img {
+    width: 1em;
+    height: 1em;
+}
