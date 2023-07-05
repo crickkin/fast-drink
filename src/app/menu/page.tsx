@@ -19,7 +19,7 @@ export default function MenuPage() {
             </div>
             <div>
                 { menuItems?.map((menuItem) => {
-                    return <Menu item={menuItem}/>
+                    return <Menu key={menuItem.id} item={menuItem}/>
                 })}
             </div>
         </div>
