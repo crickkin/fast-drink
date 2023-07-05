@@ -1,0 +1,29 @@
+.header {
+    text-align: center;
+}
+
+.container {
+    margin: 2em 1em 2em 1em;
+    display: flex;
+    flex-direction: row;
+}
+
+.container h2 {
+    font-weight: bold;
+}
+
+.containerInfo {
+    max-width: 60%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.containerInfo a {
+    color: #00eec6;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.containerInfo a:hover {
+    color: crimson;
+}
