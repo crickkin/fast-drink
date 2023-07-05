@@ -3,9 +3,16 @@ import Image from 'next/image';
 import '../globals.css';
 import styles from "../../../styles/Menu.module.css"
 import itemsJson from '../../resources/items.json';
+import ingredientsJson from '../../resources/ingredients.json';
+import IngredientSlot from '../components/ingredoentSlot';
 
 function getMenu() {
     const res = itemsJson;
+    return res;
+}
+
+function getIngredientList() {
+    const res = ingredientsJson;
     return res;
 }
 
@@ -31,19 +38,27 @@ function Menu({ item }: any) {
     const imageSource = "./images/" + image;
 
     return (
-        <div>
-            <div className={styles.container}>
-                <Image src={imageSource} width={200} height={280} alt={name} />
-                <div className={styles.containerInfo}>
-                    <h2>{name}</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod nulla ut nibh eleifend, et posuere purus facilisis. Mauris elementum, sapien at imperdiet iaculis, magna magna porttitor ex, ac posuere neque felis id nibh. Nulla posuere lacinia nisl eu suscipit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc sem lectus, egestas vel sapien non, egestas vestibulum nunc. Fusce ornare est eu neque ultricies tempor. Phasellus ultricies molestie mi, vel rutrum orci pharetra ut. Mauris pretium ornare dolor non convallis.
-                    </p>
+        <div className={styles.container}>
+            <Image src={imageSource} width={200} height={280} alt={name} />
+            <div className={styles.containerInfo}>
+                <h2>{name}</h2>
+                <h3>Ingredientes:</h3>
+                { item.ingredients?.map((ingredientCode: string) => {
+                    const ingredients = getIngredientList().ingredients;
+                    const ingredient = ingredients.find(ingredient => ingredient.code == ingredientCode);
 
-                    <div>
-                        <h2>Modo de preparo:</h2>
-                        <a href={recipe} target='blank'>Saiba mais sobre o modo de preparo aqui.</a>
-                    </div>
+                    return (
+                        <div>
+                            { (ingredient != undefined) 
+                                ? <IngredientSlot key={ingredient.id} ingredient= { ingredient } /> 
+                                : <div></div> }
+                        </div>
+                        )}
+                )}
+
+                <div>
+                    <h3>Modo de preparo:</h3>
+                    <a href={recipe} target='blank'>Saiba mais sobre o modo de preparo aqui.</a>
                 </div>
             </div>
         </div>

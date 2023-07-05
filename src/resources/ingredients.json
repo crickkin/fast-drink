@@ -1,0 +1,81 @@
+{
+    "ingredients": [
+        {
+            "id": 0,
+            "code": "lemon",
+            "name": "Limão",
+            "icon": "",
+            "type": "base"
+        },
+        {
+            "id": 1,
+            "code": "cachaca",
+            "name": "Cachaça",
+            "icon": "",
+            "type": "liquid"
+        },
+        {
+            "id": 2,
+            "code": "passionfruit",
+            "name": "Maracujá",
+            "icon": "",
+            "type": "base"
+        },
+        {
+            "id": 3,
+            "code": "coffee",
+            "name": "Café",
+            "icon": "",
+            "type": "base"
+        },
+        {
+            "id": 4,
+            "code": "liquor",
+            "name": "Licor",
+            "icon": "",
+            "type": "liquid"
+        },
+        {
+            "id": 5,
+            "code": "vodka",
+            "name": "Vodka",
+            "icon": "",
+            "type": "liquid"
+        },
+        {
+            "id": 6,
+            "code": "coconut-water",
+            "name": "Água de côco",
+            "icon": "",
+            "type": "liquid"
+        },
+        {
+            "id": 7,
+            "code": "sugar",
+            "name": "Açucar",
+            "icon": "",
+            "type": "addition"
+        },
+        {
+            "id": 8,
+            "code": "gin",
+            "name": "Gin",
+            "icon": "",
+            "type": "liquid"
+        },
+        {
+            "id": 9,
+            "code": "tonic-water",
+            "name": "Água tônica",
+            "icon": "",
+            "type": "liquid"
+        },
+        {
+            "id": 10,
+            "code": "tangerine",
+            "name": "Tangerina",
+            "icon": "",
+            "type": "base"
+        }
+    ]
+}
