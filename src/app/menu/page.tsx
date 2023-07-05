@@ -28,7 +28,7 @@ export default function MenuPage() {
 
 function Menu({ item }: any) {
     const { name, recipe, image } = item || {};
-    const imageSource = "/images/" + image;
+    const imageSource = "./images/" + image;
 
     return (
         <div>
