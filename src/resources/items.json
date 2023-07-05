@@ -20,6 +20,13 @@
             "price": 99.99,
             "image": "caipirinha-limao-agua-coco.png",
             "recipe": "https://www.comidaereceitas.com.br/bebidas-e-sucos/caipirinha-de-agua-de-coco-com-picole-de-limao.html"
+        },
+        {
+            "id": 3,
+            "name": "Gin tônica de café",
+            "price": 99.99,
+            "image": "gin-tonica-cafe.png",
+            "recipe": "https://www.bonde.com.br/gastronomia/receitas/drink-tonica-cafe-com-gin"
         }
     ]
 }
