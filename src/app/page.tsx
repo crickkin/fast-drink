@@ -24,7 +24,7 @@ export default function Home() {
       <Image className={styles.logo} src='./images/logo.png' width={100} height={100} alt='logo'/>
       <h1 className={styles.header}>Bem vindo à CocktailMe!</h1>
       <div className={styles.container}>
-        <h2 className={styles.header}>Qualquer drink R$ 15,00 e pode escolher 1 item de cada uma das categorias a baixo</h2>
+        <h2 className={styles.header}>Escolha entre os itens abaixo e monte sua combinação</h2>
         <div className={styles.cardContainer}>
           { categories.map((category) => {
             return <CategoryCard key={category.id} category = { category } />
@@ -47,7 +47,7 @@ function CategoryCard({ category } : any) {
       <h3 className={styles.cardHeader}> { name }</h3>
       <div>
         { ingredients.map((ingredient) => {
-          return <IngredientSlot key={ingredient.id} ingredient = {ingredient} />
+          return <IngredientSlot key={ingredient.id} ingredient = {ingredient} showPrice = {true} />
         })}
       </div>
     </div>
