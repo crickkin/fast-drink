@@ -3,9 +3,48 @@
 }
 
 .container {
-    margin-top: 10em;
+    margin-top: 1em;
 }
 
 .notification {
     text-align: center;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.card {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.cardHeader {
+    text-align: center;
+}
+
+.contactInfo {
+    color: #222;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #c1c1c1;
+    text-align: center;
+    padding: 1px;
+    height: 70px;
+}
+
+.logo {
+    object-fit: scale-down;
+    margin: 0px;
+    height: auto;
+    position: fixed;
+    top: 0%;
+    left: 70%;
 }

@@ -5,77 +5,168 @@
             "code": "lemon",
             "name": "Limão",
             "icon": "",
-            "type": "base"
+            "type": "fruit"
         },
         {
             "id": 1,
             "code": "cachaca",
             "name": "Cachaça",
             "icon": "",
-            "type": "liquid"
+            "type": "alcohol"
         },
         {
             "id": 2,
             "code": "passionfruit",
             "name": "Maracujá",
             "icon": "",
-            "type": "base"
+            "type": "fruit"
         },
         {
             "id": 3,
             "code": "coffee",
             "name": "Café",
             "icon": "",
-            "type": "base"
+            "type": "extra"
         },
         {
             "id": 4,
-            "code": "liquor",
-            "name": "Licor",
+            "code": "wiskey",
+            "name": "Wiskey",
             "icon": "",
-            "type": "liquid"
+            "type": "alcohol"
         },
         {
             "id": 5,
             "code": "vodka",
             "name": "Vodka",
             "icon": "",
-            "type": "liquid"
+            "type": "alcohol"
         },
         {
             "id": 6,
             "code": "coconut-water",
             "name": "Água de côco",
             "icon": "",
-            "type": "liquid"
+            "type": "-"
         },
         {
             "id": 7,
-            "code": "sugar",
-            "name": "Açucar",
+            "code": "strawberry",
+            "name": "Morango",
             "icon": "",
-            "type": "addition"
+            "type": "fruit"
         },
         {
             "id": 8,
             "code": "gin",
             "name": "Gin",
             "icon": "",
-            "type": "liquid"
+            "type": "alcohol"
         },
         {
             "id": 9,
             "code": "tonic-water",
             "name": "Água tônica",
             "icon": "",
-            "type": "liquid"
+            "type": "thinner"
         },
         {
             "id": 10,
-            "code": "tangerine",
-            "name": "Tangerina",
+            "code": "orange",
+            "name": "Laranja",
             "icon": "",
-            "type": "base"
+            "type": "fruit"
+        },
+        {
+            "id": 11,
+            "code": "caju",
+            "name": "Cajú",
+            "icon": "",
+            "type": "fruit"
+        },
+        {
+            "id": 12,
+            "code": "abacaxi",
+            "name": "Abacaxi c/ hot.",
+            "icon": "",
+            "type": "fruit"
+        },
+        {
+            "id": 13,
+            "code": "acerola",
+            "name": "Acerola",
+            "icon": "",
+            "type": "fruit"
+        },
+        {
+            "id": 14,
+            "code": "grapefruit",
+            "name": "Uva",
+            "icon": "",
+            "type": "fruit"
+        },
+        {
+            "id": 15,
+            "code": "redmix",
+            "name": "Frutas vermelhas",
+            "icon": "",
+            "type": "fruit"
+        },
+        {
+            "id": 16,
+            "code": "tequila",
+            "name": "Tequila",
+            "icon": "",
+            "type": "alcohol"
+        },
+        {
+            "id": 17,
+            "code": "rum",
+            "name": "Rum",
+            "icon": "",
+            "type": "alcohol"
+        },
+        {
+            "id": 18,
+            "code": "energy-drink",
+            "name": "Energético",
+            "icon": "",
+            "type": "thinner"
+        },
+        {
+            "id": 19,
+            "code": "soda",
+            "name": "Refrigerante",
+            "icon": "",
+            "type": "thinner"
+        },
+        {
+            "id": 20,
+            "code": "anis",
+            "name": "Anis",
+            "icon": "",
+            "type": "flavoring"
+        },
+        {
+            "id": 21,
+            "code": "hortela",
+            "name": "Hortelã",
+            "icon": "",
+            "type": "flavoring"
+        },
+        {
+            "id": 22,
+            "code": "cinnamon",
+            "name": "Canela",
+            "icon": "",
+            "type": "flavoring"
+        },
+        {
+            "id": 23,
+            "code": "sugar",
+            "name": "Açucar",
+            "icon": "",
+            "type": "extra"
         }
     ]
 }
