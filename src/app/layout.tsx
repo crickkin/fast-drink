@@ -1,8 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Fast Drinks',
-  description: 'Drink do seu jeito, na sua hora',
+  title: 'CocktailMe',
+  description: 'Coqueteis do seu jeito, na sua hora',
 }
 
 export default function RootLayout({
