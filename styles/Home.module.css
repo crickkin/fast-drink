@@ -1,3 +1,7 @@
+.home {
+    justify-content: center;
+}
+
 .header {
     text-align: center;
 }
@@ -48,4 +52,19 @@
     position: fixed;
     top: 0%;
     left: 70%;
+}
+
+@media screen and (max-width: 1080px) and (min-width: 252px) {
+    .cardContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        object-fit: scale-down;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
 }
