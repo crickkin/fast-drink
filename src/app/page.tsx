@@ -20,7 +20,7 @@ export default function Home() {
   ]
 
   return (
-    <div>
+    <div className={styles.home}>
       <Image className={styles.logo} src='./images/logo.png' width={100} height={100} alt='logo'/>
       <h1 className={styles.header}>Bem vindo à CocktailMe!</h1>
       <div className={styles.container}>
